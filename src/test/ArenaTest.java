@@ -6,7 +6,7 @@ public class ArenaTest {
     Arena arena = new Arena();
 
     @org.junit.jupiter.api.Test
-    void fight(){
+    void fight(){//Test de la methode Fight
         arena.fight(R1,R2);
         Assert.assertTrue((R1.getPoints() == 0) || (R2.getPoints() == 0));
     }
