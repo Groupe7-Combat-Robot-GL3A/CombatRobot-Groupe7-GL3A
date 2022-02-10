@@ -5,6 +5,7 @@ public class Robot {
     public Robot(String nomRobot) {
         this.nomRobot = "Robot " + nomRobot;
         this.points = 10;
+
     }
 
     public int getPoints(){
