@@ -20,7 +20,7 @@ public class Robot {
     public void setNomRobot(String nomRobot) {
         this.nomRobot = nomRobot;
     }
-
+    //Ajout de la méthode Fire
     public void fire(Robot R) {
         R.setPoints(R.getPoints() - 2);
         System.out.println(R.getNomRobot() + " a été touché par " + this.nomRobot);
